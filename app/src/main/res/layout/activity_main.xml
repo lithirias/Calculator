@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/inAdd"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="+"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inTwo"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="2"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toEndOf="@+id/inOne"
+        app:layout_constraintTop_toBottomOf="@+id/inFive"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inEight"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="8"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toEndOf="@+id/inSeven"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inNine"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="9"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/inAdd"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inSeven"
+        android:layout_width="92dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="7"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inSub"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="-"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inAdd"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inFour"
+        android:layout_width="92dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="4"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inSeven"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inDiv"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="/"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inSub"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inOne"
+        android:layout_width="92dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="1"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inFour"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inThree"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="3"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/inDiv"
+        app:layout_constraintTop_toBottomOf="@+id/inSix"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inTime"
+        android:layout_width="93dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="*"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inDiv"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inPoint"
+        android:layout_width="93dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="."
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toEndOf="@+id/inZero"
+        app:layout_constraintTop_toBottomOf="@+id/inTwo"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inZero"
+        android:layout_width="92dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="0"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inOne"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inHistory"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:onClick="openHistory"
+        android:text="HISTORY"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inZero"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inClear"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:onClick="clearTextView"
+        android:text="CLEAR"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inTime"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inEqual"
+        android:layout_width="93dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="="
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/inTime"
+        app:layout_constraintTop_toBottomOf="@+id/inThree"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inFive"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="5"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintStart_toEndOf="@+id/inFour"
+        app:layout_constraintTop_toBottomOf="@+id/inEight"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/inSix"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#BBBBBB"
+        android:text="6"
+        android:textColor="#000000"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/inSub"
+        app:layout_constraintTop_toBottomOf="@+id/inNine"
+        app:strokeColor="#000000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
